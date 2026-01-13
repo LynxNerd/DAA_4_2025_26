@@ -25,6 +25,7 @@ void complexRec(int n,int &count) {
            count++; // changed here
        }
        p >>= 1;
+       count++; // changed here
    }
 
 
