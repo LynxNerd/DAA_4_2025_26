@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Route Optimization System</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>🚚 Delivery Route Optimization System</h1>
+        <!-- <p>Powered by C++ Dijkstra's Algorithm</p> -->
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Left Panel -->
+        <aside class="left-panel">
+            <div class="route-planner">
+                <h2>Route Planner</h2>
+                
+                <div class="form-group">
+                    <label for="from-city">From City</label>
+                    <select id="from-city">
+                        <option value="">Select a city...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="to-city">To City</label>
+                    <select id="to-city">
+                        <option value="">Select a city...</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button id="find-route-btn" class="btn btn-primary">Find Route</button>
+                    <button id="reset-btn" class="btn btn-secondary">Reset</button>
+                </div>
+            </div>
+
+            <!-- Route Summary -->
+            <div class="route-summary">
+                <h3>Route Summary</h3>
+                <div class="summary-item">
+                    <span class="label">Total Distance:</span>
+                    <span id="total-distance" class="value">—</span>
+                </div>
+                <div class="summary-item">
+                    <span class="label">Path:</span>
+                    <span id="route-path" class="value">—</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Panel - Map -->
+        <main class="right-panel">
+            <div id="map"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

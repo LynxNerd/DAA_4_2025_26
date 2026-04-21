@@ -1,0 +1,22 @@
+# 15 Cities Graph - Delivery Route Optimization
+# Format: City1 City2 Distance(km)
+
+Delhi Jaipur 280
+Delhi Lucknow 480
+Jaipur Ahmedabad 540
+Ahmedabad Mumbai 520
+Mumbai Pune 150
+Pune Indore 580
+Indore Bhopal 190
+Bhopal Nagpur 350
+Nagpur Raipur 280
+Raipur Bhubaneswar 520
+Bhubaneswar Kolkata 440
+Kolkata Patna 580
+Patna Lucknow 520
+Patna Ranchi 320
+Ranchi Raipur 470
+Raipur Bhopal 620
+Lucknow Patna 400
+Patna Guwahati 800
+Guwahati Kolkata 550
